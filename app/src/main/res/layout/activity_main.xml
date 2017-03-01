@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/start_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="运动总里程（km）"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.00"
+        android:textSize="90dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/show_map"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:gravity="bottom"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/chinaz9"/>
+</LinearLayout>
