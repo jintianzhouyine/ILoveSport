@@ -8,12 +8,14 @@
     android:background="@drawable/start_bg">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:text="运动总里程（km）"
-        android:textSize="20dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
     <TextView
         android:id="@+id/total"
         android:layout_width="wrap_content"
